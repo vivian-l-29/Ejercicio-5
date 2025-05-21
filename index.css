@@ -8,3 +8,53 @@ html{
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.logo-container img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* opcional: hace el logo redondo */
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #4a90e2;
+    padding: 2rem 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    color: white;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+    font-size: 1.6rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+
+footer a {
+    color: #4a90e2;
+    text-decoration: none;
+}
